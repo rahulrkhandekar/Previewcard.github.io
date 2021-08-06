@@ -103,3 +103,7 @@
     font-size: 11px;
     
 }
+.challange span{
+    text-decoration: underline;
+    color: var(--Dark-desaturated);
+}
