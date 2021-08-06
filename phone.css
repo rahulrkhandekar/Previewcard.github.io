@@ -1,0 +1,46 @@
+.container {
+    height: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 800px;
+    width: 300px;
+    margin: 90px 0;
+}
+
+.box1 {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.box2 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.box2 .overlay {
+    border-radius: 10px 10px 0 0;
+}
+
+.right {
+    margin: 15px 27px;
+    text-align: center;
+}
+
+.para {
+    margin-bottom: 10px;
+}
+
+.count {
+    flex-direction: column;
+}
+
+.count:nth-child(3) {
+    margin-right: 0px;
+}
+
+.count span {
+    margin: 7px 0;
+}
