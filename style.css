@@ -81,7 +81,7 @@
     justify-content: space-between;
 }
 
-.count span .big {
+.count .span .big {
     color: var(--White);
     font-size: 15px;
     font-weight: 700;
